@@ -29,14 +29,18 @@ body {
     font-size: clamp(1rem, 2vw, 2rem);
     line-height: 1.5em;
 }
-@media(min-width: 300px){.Container{
-    margin: 2vh;
-    padding: 2rem;
-    border-radius: 2rem;
+@media(min-width: 300px){
+    .Container{
+        margin: 2vh;
+        padding: 2rem;
+        border-radius: 2rem;
+    }
 }
-@media(min-width: 500px){.Container{
-    margin: 7vw;
-    padding: 3rem;
+@media(min-width: 500px){
+    .Container{
+        margin: 7vw;
+        padding: 3rem;
+    }
 }
 /* @media(min-width: 800px){.Container{
     margin: 4vw;
@@ -54,7 +58,8 @@ body {
             border-radius: 50%;
         }
         @media (min-width:380px){
-            .Avatar { float: left;
+            .Avatar { 
+                float: left;
                 margin-bottom: 0.5em;
             }
         }
@@ -81,7 +86,6 @@ body {
 
     main{
         clear: both;
-
     }
         .ListaLinkuri{
             display: block;
@@ -89,12 +93,17 @@ body {
             padding: 0;
             border-top: 1px solid #fff;
         }
+        /* @media (min-width: 1200px){
+            .ListaLinkuri{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        } */
             .ListaItem{
                 display: block;
                 margin: 0;
                 padding: 0;
                 border-bottom: 1px solid #fff;
-
             }
                 .ListaLink{
                     display: block;
@@ -125,9 +134,3 @@ body {
                         text-overflow: ellipsis;
                     }
         
-        @media(min-width: 1200px){
-            .ListaLinkuri{
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-            }
-        }
